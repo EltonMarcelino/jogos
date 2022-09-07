@@ -1,0 +1,22 @@
+.divUniversal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.divleft {
+  background-color: #d9d9d9;
+  height: 0;
+  width: 50%;
+  border-top: 100px solid red;
+  border-right: 50px solid transparent;
+  border-left: 0px solid transparent;
+}
+
+.divright {
+  background-color: #d9d9d9;
+  height: 0;
+  width: 50%;
+  border-bottom: 100px solid blue;
+  border-right: 0px solid transparent;
+  border-left: 50px solid transparent;
+}
